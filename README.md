@@ -75,4 +75,24 @@ Finally, we have a folder called "2 Statistics" that contains an .xlsx table tha
 
 We've also stored the code in R, used in multivariate analyses via the RStudio software (as well as the installed packages). This file is executable using the table contained in this folder.
 
+We need to open the R code with Rstudio, as well as to download the table containing the summarized data.
+
+<img width="893" alt="image" src="https://github.com/inakiintxaurbe/spatial-organization-patterns-related-to-magdalenian-cave-art/assets/88764409/d66bce31-0eed-4188-b9f2-a4bdcbb877d4">
+
+(the 16th line must be changed according to the direction of the downladed table)
+
+<img width="579" alt="image" src="https://github.com/inakiintxaurbe/spatial-organization-patterns-related-to-magdalenian-cave-art/assets/88764409/26521335-c085-44ea-bab6-363f9543fd5d">
+
+Attention! We must change the direction of the bars.
+
+<img width="891" alt="image" src="https://github.com/inakiintxaurbe/spatial-organization-patterns-related-to-magdalenian-cave-art/assets/88764409/b90f2365-f291-4550-a5b5-30fdb1891941">
+
+After that, we select all and run the code:
+
+<img width="894" alt="image" src="https://github.com/inakiintxaurbe/spatial-organization-patterns-related-to-magdalenian-cave-art/assets/88764409/d0b684d9-dfa7-4669-852b-8715aba80479">
+
+We can observe the results in "Plot".
+
+<img width="892" alt="image" src="https://github.com/inakiintxaurbe/spatial-organization-patterns-related-to-magdalenian-cave-art/assets/88764409/3c666493-d023-49f7-a3b4-3f865a30d05b">
+
 The scripts can be edited by other researchers, according to their interests and problems. The results originated using this script can also be shared in this repository.
