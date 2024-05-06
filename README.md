@@ -22,19 +22,6 @@ Unfortunately, it was not possible to store the generated data for each of the G
 
 * you can find some files to test the script in the following link: https://github.com/inakiintxaurbe/GIS_Test_Santimami-e_Old_Chamber_of_Paintings
 
-That is, for each of the GUs, we must have:
-
--a file named GU.wrl that contains the photogrammetric model of the figure, cropped as described in Figure 2 of the article.
--CeilingsMax.wrl (the entire 3D of the cave, modified to show its paleo-state), CeilingsMin.wrl (3D of the "internal ceilings" in the cave, the obstacles between  the ground and the highest Z)
--GroundOK.wrl (the ground level, presumably utilised by the societies in the past)
--Access.shp (the entrance used in the past)
-
-As well as three folders named as:
--"Accessibility" with .shp files like the "EstimatedPositionArtist.shp" (it gives the distance to the ground of the GU, or the estimated posture of the artist), the Least Cost Path "LCP.shp" (it gives the "Difficulty value" of the accessibility of this GU, as well as the topographic distance of the LCP), or "time.shp" (it gives the Estimated Time of Arrival in minutes). It also contains other files, as the .tif file "GreaterDifficulties.tif", a Kernel concentration HeatMap showing the biggest concentration of the difficulties over the LCP.
--"Metadata": It contains several files created in the analyses, like de Lines of Sight (LSSelect.shp), or the Buffer (Buffer.shp).
--"Visibility": it contains several files as the files "VisibilityLyingDown.tif", "VisibilityStanding.tif" or "VisibilityStooping.tif", which counts the estimated viewers in each position.
--"Rock-Art": these files are related with the photogrammetric files of the GU, like its centroid (GUCentroid.shp).
-
 Finally, we have a folder called "2 Statistics" that contains an .xlsx table that combines the iconographic information of each figure extracted from the database summarised in the "0 Data" folder, as well as the results of the spatial analyses explained in (but unfortunately not yet stored in) the "1 GIS" folder.
 
 We've also stored the code in R, used in multivariate analyses via the RStudio software (as well as the installed packages). This file is executable using the table contained in this folder.
