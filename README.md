@@ -12,11 +12,17 @@ In any case, We need the following files (With the name that we indicate):
 -the ground and the highest Z), GroundOK.wrl (the ground level, presumably utilised 
 -by the societies in the past), GU.wrl (3D of the analysed depiction), 
 -Access.shp (the entrance used in the past).
--PUT THE FILES IN THE SAME FOLDER, "C/:Paleospeleology". (you need to create it)
+-PUT THE FILES WITH THE CODE "Script.py" IN THE SAME FOLDER, "C/:Paleospeleology". (you need to create it)
+
+<img width="1133" alt="image" src="https://github.com/inakiintxaurbe/spatial-organization-patterns-related-to-magdalenian-cave-art/assets/88764409/4d6fad67-e9ce-4016-9528-4a8c44fc4f84">
 
 The "0 Output" folder, included within the "1 GIS" folder, contains a table that summarises the statistical data obtained by applying the code from this repository to each of the GUs analysed in this research.
 
-Unfortunately, it was not possible to store the generated data for each of the GUs because of its size (each GU contains an average size of 1.5 Gb). That is, for each of the GUs, we would have:
+Unfortunately, it was not possible to store the generated data for each of the GUs because of its size (each GU contains an average size of 1.5 Gb). 
+
+* you can find some files to test the script in the following link: https://github.com/inakiintxaurbe/GIS_Test_Santimami-e_Old_Chamber_of_Paintings
+
+That is, for each of the GUs, we must have:
 
 -a file named GU.wrl that contains the photogrammetric model of the figure, cropped as described in Figure 2 of the article.
 -CeilingsMax.wrl (the entire 3D of the cave, modified to show its paleo-state), CeilingsMin.wrl (3D of the "internal ceilings" in the cave, the obstacles between  the ground and the highest Z)
